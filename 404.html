@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Mudamos de endereço — BetStatistics</title>
+<link rel="canonical" href="https://augustocbb.github.io/betstatistics-site/">
+<meta name="robots" content="noindex, follow">
+<meta http-equiv="refresh" content="1; url=https://augustocbb.github.io/betstatistics-site/">
+<style>
+  body{margin:0;min-height:100vh;display:grid;place-items:center;text-align:center;
+    background:#F4F6EF;color:#14301B;line-height:1.6;
+    font-family:'Segoe UI',system-ui,-apple-system,Arial,sans-serif;padding:24px;}
+  .card{max-width:520px}
+  h1{font-size:26px;margin:0 0 10px}
+  p{color:#5C6A56;margin:0 0 22px}
+  a.btn{display:inline-block;background:#2F6B3A;color:#fff;text-decoration:none;
+    padding:14px 24px;border-radius:10px;font-weight:700}
+  a.btn:hover{background:#3B8446}
+</style>
+</head>
+<body>
+  <div class="card">
+    <h1>Mudamos de endereço</h1>
+    <p>O site agora é <strong>BetStatistics</strong>. Você será redirecionado automaticamente.</p>
+    <a class="btn" href="https://augustocbb.github.io/betstatistics-site/">Ir para o site</a>
+  </div>
+  <script>
+  (function(){
+    var NEW = "https://augustocbb.github.io/betstatistics-site";
+    var rest = location.pathname.replace(/^\/betcerto-site/, "");
+    if (rest === "/" ) rest = "/";
+    location.replace(NEW + rest + location.search + location.hash);
+  })();
+  </script>
+</body>
+</html>
